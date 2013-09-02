@@ -1,0 +1,134 @@
+/**
+ * Google Clone
+ * 
+ * Clone of Google's homepage as part of the Thinkful FEWD Curriculum
+ * 
+ * @package   GoogleClone
+ * @author    Trevor Nowalk
+ * @license   http://opensource.org/licenses/AFL-3.0 Academic Free License (AFL 3.0)
+ * @since   Version 1.0
+ */
+
+body: {
+  font-family: arial,sans-serif;
+}
+
+/** Header Styles **/
+div#header {
+  height: 27px;
+  min-width: 980px;
+  background: #2D2D2D;
+  border-bottom: 1px solid black;
+}
+
+ul#mainNav {
+  margin-left: 6px;
+}
+
+ul#mainNav li {
+  float: left;
+  height: 100%;
+  margin-top: 0px;
+  padding: 0 10px;
+  font: 13px/27px Arial,sans-serif;
+  font-weight: bold;
+}
+
+ul#mainNav a {
+  color: #BBBBBB;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+ul#mainNav a.active,
+ul#mainNav a:hover {
+  color: #FFFFFF;
+}
+
+/** Content Styles **/
+div#content {
+  min-width: 980px;
+  text-align: center;
+}
+
+div#signinButton {
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+  background-color: #D14836;
+  background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  font: 13px/27px Arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+div#logo {
+  height: 231px;
+}
+
+div#logo img {
+  padding-top: 112px;
+  width: 275px;
+  height: 95px;
+}
+
+input#searchBar {
+  width: 560px;
+  height: 27px;
+  border: 1px solid black;
+  border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+  border-radius: 3px;
+}
+
+div#buttons {
+}
+
+div#buttons button {
+  background-color: #F5F5F5;
+  background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #444444 !important;
+  font: bold 11px/27px Arial,sans-serif !important;
+  margin: 16px 8px;
+  -moz-user-select: none;
+  border-radius: 2px 2px 2px 2px;
+  cursor: default !important;
+  font-weight: bold;
+}
+
+/** Footer Styles **/
+
+div#footer {
+  min-width: 980px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 35px;
+  border-top: 1px solid #EBEBEB;
+  background: #FFFFFF;
+  z-index: 100;
+}
+
+ul#footerNav {
+  margin-right: 45px;
+  float: right;
+}
+
+ul#footerNav li {
+  float: left;
+  color: #666666;
+  margin: 2px 10px 0;
+  font: 10pt/27px Arial,sans-serif !important;
+}
+
+.clear {
+  clear: both;
+}
